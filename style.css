@@ -1,12 +1,20 @@
-nav h1 {
+h1 {
   text-transform: uppercase;
+  text-align: center;
   font-size: 5.5rem;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   margin-top: 50px;
-  margin: auto;
 }
 
-nav #navButton {
+.navbar {
+  display: block;
+}
+
+.navbar #navButton {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  display: block;
   margin-top: 30px;
   margin-right: 50px;
   height: 9rem;
@@ -14,6 +22,7 @@ nav #navButton {
   font-size: 3.7rem;
   background-color: black;
   border-radius: 50%;
+  color: white;
 }
 
 .container {
