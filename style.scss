@@ -1,0 +1,63 @@
+nav {
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    letter-spacing: 8px;
+    margin-top: 50px;
+    margin: auto;
+  }
+
+  #navButton {
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 9rem;
+    width: 9rem;
+    font-size: 3.7rem;
+    background-color: black;
+    border-radius: 50%;
+    ;
+
+  }
+
+}
+
+.container {
+  max-width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 65px;
+
+
+  article {
+    width: 22vw;
+    height: 60vh;
+    background-color: coral;
+    padding: 30px;
+
+
+    h2 {
+      margin-top: 10px;
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    p {
+      margin-top: 20px;
+      line-height: 3rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
+
+
+
+
+/* basic green: #22b573;
+dark color: #1c1717;
+yellow: #f8b54b;
+title white: #f0faf6; */
